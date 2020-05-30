@@ -1,3 +1,8 @@
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-125816222-1');
+
 'use strict';
 
 var windowHeight = window.innerHeight,
