@@ -12,10 +12,17 @@
     </style>
 </head>
 <body>
-	<a href="https://www.facebook.com/iccofficials" target="_blank">
-		<div class="wrapper">
-			<img class="leaderboard" src="//parallax.thedailycampus.com/icc/icc.jpg?v=1.1" alt="International Standard University">
-		</div>	
-	</a>
+	<div class="wrapper">
+		<img class="leaderboard" src="//parallax.thedailycampus.com/icc/icc.jpg?v=1.1" alt="International Standard University">
+	</div>	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+	<script>
+		$( document ).ready(function() {
+		    $(".wrapper").click(function(){
+			    window.open("https://www.facebook.com/iccofficials");
+		    });
+		});		
+	</script>
+	
 </body>
 </html>
